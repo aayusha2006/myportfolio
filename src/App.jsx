@@ -6,10 +6,9 @@ import Navbar from "./Navbar";
 
 function App() {
   return (
-    <main>
+    <main className="p-8">
       <Navbar />
       <Hero />
-      
     </main>
   );
 }
